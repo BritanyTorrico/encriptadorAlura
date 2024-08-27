@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+        <title>Encriptador</title>
+    </head>
+
+    <body>
+        <header>
+            <img src="/assets/Logo.png" alt="logo de alura" class="logotipo">
+        </header>
+        <main>
+            <section class="input-section">
+                <div class="contenedor-izquierda">
+                    <textarea class="text-area" cols="30" rows="10"
+                    placeholder="Ingrese el texto alura"></textarea>
+                </div>
+                
+                <div class="informacion" style="display: none;"  id="mensaje-validacion">
+                    <img src="/assets/icon.png" alt="info icon"
+                        class="info-icon">
+                    <p> Solo letras minúsculas y sin acentos/caracteres especiales</p>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptar"
+                        onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-desencriptar"
+                        onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+
+            <section class="output-section">
+                <div class="contenedor-derecha">
+                    <textarea class="mensaje" id="mensaje"></textarea>
+                    <div class="mensaje-adicional">
+                        <p class="mensaje-principal">Ningún mensaje fue
+                            encontrado</p>
+                        <p class="mensaje-secundario">Ingresa el texto que
+                            desees encriptar o desencriptar.</p>
+                    </div>
+                    <div class="contenedor-copiar">
+                        <button  
+                        onclick="copiarAlPortapapeles()"
+                        class="btn-copiar">Copiar</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Britany Torrico Rosas | 2024</p>
+        </footer>
+        <script src="/script.js"></script>
+    </body>
+
+</html>
