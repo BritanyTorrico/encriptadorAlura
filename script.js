@@ -74,7 +74,7 @@ function desencriptar(valor){
 function verificarTextArea() {
     if (mensaje.value.trim() === "") {
         mensajeAdicional.style.display = "block";
-        mensaje.style.backgroundImage = 'url("/assets/Muñeco.png")'; 
+        mensaje.style.backgroundImage = 'url("./assets/Muñeco.png")'; 
         copiarBtn.style.display = "none";
 
     } else {
