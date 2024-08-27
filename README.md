@@ -2,7 +2,7 @@
 
 Este proyecto es una aplicación web sencilla que permite codificar y decodificar texto utilizando un método de sustitución de caracteres.
 ## URL: https://encriptador-alura-three-orpin.vercel.app/
-
+NOTA: Tambien se encuentra en githubPages https://britanytorrico.github.io/encriptadorAlura/
 ## Funcionalidades
 
 - **Codificación:** Transforma el texto ingresado en un formato codificado usando una serie de reglas de sustitución.
